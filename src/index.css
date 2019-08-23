@@ -1,0 +1,95 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+body,
+html,
+#root,
+.page-container {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+.button-container button,
+.button-container a {
+  flex: 1;
+  padding: 10px;
+  font-size: 1.5rem;
+  box-sizing: border-box;
+  color: white;
+
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.button-container .link-button {
+  margin-left: 15px;
+  background: #4394d0;
+  border: 0px;
+  cursor: pointer;
+}
+
+.button-container .primary-button {
+  margin-right: 15px;
+  background: #3b9b42;
+  border: 0px;
+  cursor: pointer;
+}
+
+input[type="checkbox"] {
+  width: 25px;
+  height: 25px;
+}
+
+label {
+  font-weight: 550;
+  color: #333;
+}
+
+.show-password-container {
+  display: flex;
+  align-items: center;
+}
+
+.show-password-container label {
+  margin-left: 10px;
+}
+
+.error-message {
+  color: #e65f53;
+  font-size: 1rem;
+  font-weight: 600;
+  word-break: break-word;
+}
+
+.reset-message {
+  color: #3b9b42;
+  font-size: 1rem;
+  font-weight: 600;
+  word-break: break-word;
+}
+
+.toggle-body {
+  display: flex;
+  align-items: center;
+  flex: 2;
+}
+
+.forgot-body {
+  flex: 1;
+  color: #4394d0;
+  font-weight: 600;
+  cursor: pointer;
+}
