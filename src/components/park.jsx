@@ -102,20 +102,6 @@ export default class Park extends Component {
                     )}
                 </div>
                 <div class="park-right-panel">
-                    {/* <MyMapComponent
-                        isOpen={true}
-                        isMarkerShown={true}
-                        markerData={this.state.parkData}
-                        googleMapURL="https://maps.googleapis.com/maps/api/js?v=3.exp&libraries=geometry,drawing,places"
-                        loadingElement={<div style={{ height: `100%` }} />}
-                        containerElement={<div style={{ height: `100%` }} />}
-                        mapElement={<div style={{ height: `100%` }} />}
-                        onMarkerClick={((e, id) => this.handleMarkerClick(e, id))}
-
-                        onToggleOpen={(isOpen) => ({
-                            isOpen: !isOpen,
-                        })}
-                    /> */}
                     <MyMapComponent
                         isOpen={true}
                         markerData={this.state.parkData}
