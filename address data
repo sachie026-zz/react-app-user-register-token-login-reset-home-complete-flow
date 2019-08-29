@@ -1,0 +1,17 @@
+[
+    {
+        name : "sanewadi park",
+        lat: 18.555200,
+        lng: 73.804450
+    },
+    {
+        name : "Panchsheel Park Aundh Pune",
+        lat: 18.555380,
+        lng: 73.810580
+    },
+    {
+        name : "Chondhe Park Aundh Pune",
+        lat: 18.555380,
+        lng: 73.810580
+    }
+]

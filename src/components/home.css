@@ -12,8 +12,8 @@
   padding: 12px 15px;
   border-radius: 50%;
   position: fixed;
-  top: 5%;
-  right: 5%;
+  top: 2.5%;
+  right: 3%;
   cursor: pointer;
   font-weight: 600;
   font-size: 1.25rem;
@@ -111,7 +111,7 @@
 }
 
 .home-heading {
-  margin: 100px;
+  margin: 25px;
   color: white;
   font-size: 2rem;
 }

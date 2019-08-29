@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import { Redirect, withRouter } from "react-router-dom";
+import Park from "./park";
 // import { withRouter } from "react-router-dom";
 import "./home.css";
 
@@ -124,6 +125,7 @@ class Home extends Component {
     return (
       <section className="home-container">
         <div className="home-heading">{this.state.user.toUpperCase()}</div>
+        <Park />
         <div
           onClick={this.toggleDN}
           className={"dn-collapsed " + (this.state.showDN ? "dn-hidden" : "")}
